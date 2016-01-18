@@ -1,0 +1,53 @@
+body{
+    font-family: 'Montserrat',Helvetica, Arial, san-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #0097A7;
+    position: relative; 
+    width: 100%;   
+}
+
+footer{
+    position: absolute;
+    bottom: 15px;
+    font-size: .75em;
+    text-align: center;
+    width: 100%;
+}
+
+.temp{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 250px;
+    height: 250px;
+    margin-top: -125px;
+    margin-left: -125px;
+    text-align: center;
+}
+
+.large-text{
+    font-size: 2.5em;
+    font-weight: bold;
+    display: block;
+}
+
+.small-text{
+    font-size: .75em;
+    display: block;
+}
+
+.social-icons{
+    padding-top: 25px;
+    font-size: 3em;
+}
+
+.social-icons a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.social-icons a:hover,
+.social-icons a:focus{
+    color: #FFA000;
+}
